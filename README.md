@@ -25,17 +25,16 @@ This project allows managing books, authors, categories, and publishers via APIs
 ---
 
 ## Project Structure
-src/main/java
-└── com.example.libraryManagementSystem
-├── controller # REST API Controllers
-├── entity # JPA Entities (Book, Author, Category, Publisher)
-├── repository # Spring Data JPA Repositories
-└── service # Business Logic Layer
+- src/main/java
+- └── com.example.libraryManagementSystem
+- ├── controller # REST API Controllers
+- ├── entity # JPA Entities (Book, Author, Category, Publisher)
+- ├── repository # Spring Data JPA Repositories
+- └── service # Business Logic Layer
 
 ## API Endpoints (Sample)
-
-GET /api/books – List all books
-POST /api/books – Add a new book
-GET /api/publisher/{id} – Get a publisher by ID
-PUT /api/publisher/{id} – Update publisher
-DELETE /api/publisher/{id} – Delete publisher
+- GET /api/books – List all books
+- POST /api/books – Add a new book
+- GET /api/publisher/{id} – Get a publisher by ID
+- PUT /api/publisher/{id} – Update publisher
+- DELETE /api/publisher/{id} – Delete publisher
